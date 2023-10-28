@@ -1,0 +1,4 @@
+/target
+Cargo.lock
+platform-account*.json
+.envrc

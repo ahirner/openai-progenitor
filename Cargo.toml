@@ -1,0 +1,32 @@
+[workspace]
+members = ["sdk", "sdk-httpmock", "cli"]
+exclude = ["progenitor"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+
+[workspace.dependencies]
+clap = { version = "4.4.7", features = ["string"] }
+convert_case = "0.6.0"
+httpmock = "0.6.8"
+percent-encoding = "2.3.0"
+prettyplease = "0.2.15"
+progenitor = { path = "./progenitor/progenitor" }
+progenitor-client = { path = "./progenitor/progenitor-client" }
+regex = "1.10.2"
+reqwest = { version = "*", default-features = false, features = [
+  "json",
+  "stream",
+  "multipart",
+  "rustls-tls-native-roots",
+] }
+sdk = { path = "sdk" }
+syn = "2.0.38"
+serde = { version = "1.0.189", features = ["derive"] }
+serde_json = "1.0.107"
+serde_yaml = "0.9.27"
+serde_urlencoded = "0.7.1"
+tokio = { version = "1", features = ["full"] }
+tracing-subscriber = { version = "0.3.17", features = ["env-filter"] }

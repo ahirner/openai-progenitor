@@ -1,0 +1,20 @@
+[package]
+name = "sdk-httpmock"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+httpmock = { workspace = true }
+regex = { workspace = true }
+sdk = { workspace = true }
+
+[dev-dependencies]
+reqwest = { workspace = true }
+tokio = { workspace = true }
+serde_json = { workspace = true }
+
+[build-dependencies]
+progenitor = { workspace = true }
+serde_yaml = { workspace = true }
+prettyplease = { workspace = true }
+syn = { workspace = true }
