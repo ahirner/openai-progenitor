@@ -4,7 +4,7 @@ Proof of Concept for the [Support of multipart/form-data and file uploads](https
 
 ## How to Use
 
-`openai-progenator` is a reqwest and CLI client for the [OpenAI API](https://platform.openai.com/docs/api-reference).
+`openai-progenitor` is a reqwest and CLI client for the [OpenAI API](https://platform.openai.com/docs/api-reference).
 
 1. Set API key:
    ```
