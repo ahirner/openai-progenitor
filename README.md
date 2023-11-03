@@ -21,7 +21,7 @@ Proof of Concept for the [Support of multipart/form-data and file uploads](https
    cargo run -- create-image-variation /tmp/u.8705110.png --size 256x256
    ```
    Sample output:
-![](https://oaidalleapiprodscus.blob.core.windows.net/private/org-gdSgy6cn3o3Tnmopt3F6ZvGC/user-bIMnrpPR45yCcCbGAiU8nSTR/img-DVn8CTKKBuBsq8cNkWqmC6Ky.png?st=2023-10-28T20%3A45%3A51Z&se=2023-10-28T22%3A45%3A51Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-10-27T22%3A55%3A30Z&ske=2023-10-28T22%3A55%3A30Z&sks=b&skv=2021-08-06&sig=gI7gt%2BLOYtm9zvXm2HrHnLqxQSyvHgBicZJJ6LwJ%2Bmo%3D)
+![](https://user-images.githubusercontent.com/6055037/280204775-7576770b-cc86-48b0-9f3b-71ef1e5461d0.png)
 
 ## Help
 
